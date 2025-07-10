@@ -12,5 +12,6 @@ def count(inputstring):
             else:
                 c_count+=1
     return v_count,c_count
-text="Machine_learning"
-print("vowels and consonats count is :",count(text))
+if __name__=="__main__":
+    text="Machine_learning"
+    print("vowels and consonats count is :",count(text))
